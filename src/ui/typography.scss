@@ -1,0 +1,150 @@
+@import "../variables.scss";
+
+@mixin typography {
+  font-family: $font-family-base;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+@mixin typography_color-primary {
+  color: $ui_90_day;
+}
+
+@mixin typography_color-secondary {
+  color: $ui_50_day;
+}
+
+@mixin typography_color-white {
+  color: $color-white;
+}
+
+@mixin typography_color-error {
+  color: $ui_red_day;
+}
+
+@mixin typography_color-inherit {
+  color: inherit;
+}
+
+@mixin typography_align-left {
+  text-align: left;
+}
+
+@mixin typography_align-center {
+  text-align: center;
+}
+
+@mixin typography_align-right {
+  text-align: right;
+}
+
+@mixin typography_no-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin typography_weight-light {
+  font-weight: 300;
+}
+
+@mixin typography_weight-regular {
+  font-weight: normal;
+}
+
+@mixin typography_weight-medium {
+  font-weight: 500;
+}
+
+@mixin typography_weight-bold {
+  font-weight: bold;
+}
+
+@mixin typography_size-10 {
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+@mixin typography_size-11 {
+  font-size: 11px;
+  line-height: 1.28;
+}
+
+@mixin typography_size-12 {
+  font-size: 12px;
+  line-height: 1.16;
+}
+
+@mixin typography_size-13 {
+  font-size: 13px;
+  line-height: 1.2308;
+}
+
+@mixin typography_size-14 {
+  font-size: 14px;
+  line-height: 1.286;
+}
+
+@mixin typography_size-16 {
+  font-size: 16px;
+  line-height: 1.375;
+}
+
+@mixin typography_size-18 {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+@mixin typography_size-20 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+@mixin typography_size-22 {
+  font-size: 22px;
+  line-height: 1.45;
+}
+
+@mixin typography_size-24 {
+  font-size: 24px;
+  line-height: 1.1666;
+}
+
+@mixin typography_size-26 {
+  font-size: 26px;
+  line-height: 1.172;
+}
+
+@mixin typography_size-28 {
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+@mixin typography_size-32 {
+  font-size: 32px;
+  line-height: 1.125;
+}
+
+@mixin typography_size-36 {
+  font-size: 36px;
+  line-height: 1.1666;
+}
+
+@mixin typography_size-42 {
+  font-size: 42px;
+  line-height: 1.1905;
+}
+
+@mixin typography_size-48 {
+  font-size: 48px;
+  line-height: 1.1666;
+}
+
+@mixin typography_size-70 {
+  font-size: 70px;
+  line-height: 1.09;
+}
+
+@mixin typography_size-90 {
+  font-size: 90px;
+  line-height: 1.1666;
+}

@@ -1,0 +1,15 @@
+@import './reset.css';
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-screen {
+    width: 222px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 64px;
+    border-radius: 28px;
+}

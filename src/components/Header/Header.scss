@@ -1,0 +1,16 @@
+.header {
+    &__image {
+        width: 100%;
+        height: 80vh;
+        background-color: #fff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../../images/fon.jpg");
+
+        &_overlay{
+            width: 100%;
+            height: 100%;
+            background: rgba(18, 61, 202, 0.2);
+        }
+    }
+}

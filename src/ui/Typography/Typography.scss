@@ -1,0 +1,113 @@
+@import '../typography';
+
+.ui-typography {
+  @include typography;
+}
+
+.ui-typography_color-primary {
+  @include typography_color-primary;
+}
+
+.ui-typography_color-secondary {
+  @include typography_color-secondary;
+}
+
+.ui-typography_color-white {
+  @include typography_color-white;
+}
+
+.ui-typography_color-error {
+  @include typography_color-error;
+}
+
+.ui-typography_color-inherit {
+  @include typography_color-inherit;
+}
+
+.ui-typography_align-left {
+  @include typography_align-left;
+}
+
+.ui-typography_align-center {
+  @include typography_align-center;
+}
+
+.ui-typography_align-right {
+  @include typography_align-right;
+}
+
+.ui-typography_no-wrap {
+  @include typography_no-wrap;
+}
+
+.ui-typography_weight-regular {
+  @include typography_weight-regular;
+}
+
+.ui-typography_weight-light {
+  @include typography_weight-light;
+}
+
+.ui-typography_weight-medium {
+  @include typography_weight-medium;
+}
+
+.ui-typography_weight-bold {
+  @include typography_weight-bold;
+}
+
+.ui-typography_size-10 {
+  @include typography_size-10;
+}
+
+.ui-typography_size-12 {
+  @include typography_size-12;
+}
+
+.ui-typography_size-13 {
+  @include typography_size-13;
+}
+
+.ui-typography_size-14 {
+  @include typography_size-14;
+}
+
+.ui-typography_size-16 {
+  @include typography_size-16;
+}
+
+.ui-typography_size-18 {
+  @include typography_size-18;
+}
+
+.ui-typography_size-20 {
+  @include typography_size-20;
+}
+
+.ui-typography_size-24 {
+  @include typography_size-24;
+}
+
+.ui-typography_size-28 {
+  @include typography_size-28;
+}
+
+.ui-typography_size-32 {
+  @include typography_size-32;
+}
+
+.ui-typography_size-36 {
+  @include typography_size-36;
+}
+
+.ui-typography_size-42 {
+  @include typography_size-42;
+}
+
+.ui-typography_size-48 {
+  @include typography_size-48;
+}
+
+.ui-typography_size-90 {
+  @include typography_size-90;
+}

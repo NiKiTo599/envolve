@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;900&display=swap');
+
+$font-family-base: 'Noto Sans JP', Arial, sans-serif;
+
+$color-white: #fff;
+$color-black: #000;
+$color-blue: #505add;
+$color-gray: rgba(0, 0, 0, 0.5);
+$color-dark-gray: #333333;
+$color-orange: #ff8800;
+$color-dark-orange: #ff6600;
+$color-green: #3cb300;
+$color-green-50: #ebf7e4;
+$color-blue-hover: #5a65f7;
+$color-gray-hover: #dee2fc;
+$color-station-slider-gray: #e5e5e5;
+$color-yellow: #ffdc60;
+
+$link-color-blue: $color-blue;
+$link-color-blue-hovered: #f43;
+
+$button-color-bright-blue: #48cce0;
+$button-color-blue: $color-blue;
+$button-color-blue-hovered: #3e46ab;
+$button-color-pink: #be40c0;
+$button-color-orange: #fba82b;
+$button-gradient: linear-gradient(
+  135deg,
+  $button-color-blue 34.4%,
+  $button-color-pink 66.11%,
+  $button-color-orange 96.37%
+);
+$button-gradient-hovered: linear-gradient(0deg, rgba(3, 3, 3, 0.2), rgba(3, 3, 3, 0.2)),
+  $button-gradient;
+
+// Цвета из макета, todo: перейти полностью на данный нейминг в будущем
+// альфа day
+$ui_90_day: rgba(0, 0, 0, 0.9);
+$ui_80_day: rgba(0, 0, 0, 0.8);
+$ui_60_day: rgba(0, 0, 0, 0.6);
+$ui_50_day: rgba(0, 0, 0, 0.5);
+$ui_30_day: rgba(0, 0, 0, 0.3);
+$ui_20_day: rgba(0, 0, 0, 0.2);
+$ui_10_day: rgba(0, 0, 0, 0.1);
+$ui_05_day: rgba(0, 0, 0, 0.05);
+$ui_03_day: rgba(0, 0, 0, 0.03);
+// альфа night
+$ui_90_night: rgba(255, 255, 255, 0.9);
+$ui_80_night: rgba(255, 255, 255, 0.8);
+$ui_70_night: rgba(255, 255, 255, 0.7);
+$ui_50_night: rgba(255, 255, 255, 0.5);
+$ui_30_night: rgba(255, 255, 255, 0.3);
+$ui_20_night: rgba(255, 255, 255, 0.2);
+$ui_10_night: rgba(255, 255, 255, 0.1);
+$ui_05_night: rgba(255, 255, 255, 0.05);
+$ui_03_night: rgba(255, 255, 255, 0.03);
+//
+$ui_darkblue_day: #505add;
+$ui_smooth_blue: #edeffc;
+$ui_red_day: #ff4433;
+$ui_green_day: #3cb200;
+$main_blue: #505add;
+$linkhover_blue: #5a65f7;
+$buttonhover_blue: #3e46ab;
+$lightblue: #edeffc;
+$lightblue_50: rgba(
+  $color: $lightblue,
+  $alpha: 0.5,
+);
+$buttonhover_lightblue: #dee2fc;
+$card-box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+$card-box-shadow-hover: 0px 8px 40px rgba(0, 0, 0, 0.15);
+
+$z-index-overlay: 10;
+
+$gradient-plus: linear-gradient(
+  115.73deg,
+  $button-color-bright-blue 7.24%,
+  $button-color-blue 34.12%,
+  $button-color-pink 62.93%,
+  $button-color-orange 92.22%
+);
+
+$content-max-width: 1152px;
