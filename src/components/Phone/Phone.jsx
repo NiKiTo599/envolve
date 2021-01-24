@@ -1,5 +1,8 @@
 import React from "react";
+import cn from "classnames";
 
-import './Phone.scss';
+import "./Phone.scss";
 
-export const Phone = ({ children }) => <div className="phone">{children}</div>;
+export const Phone = ({ children, className }) => (
+  <div className={cn("phone", className)}>{children}</div>
+);

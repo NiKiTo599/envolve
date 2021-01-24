@@ -1,15 +1,17 @@
 @import './reset.css';
+@import 'swiper/swiper.scss';
 
 .main {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .photo-screen {
-    width: 222px;
+    width: 194px;
     height: auto;
     position: absolute;
-    top: 15px;
-    left: 64px;
+    top: 9px;
+    left: 55px;
     border-radius: 28px;
 }

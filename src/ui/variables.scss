@@ -1,6 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;900&display=swap");
 
-$font-family-base: 'Noto Sans JP', Arial, sans-serif;
+$font-family-base: "Noto Sans JP", Arial, sans-serif;
+$gradient: radial-gradient(
+    197.07% 86.62% at 26.34% 83.93%,
+    #39c4ff59 0%,
+    rgba(138, 97, 255, 0) 100%
+  ),
+  linear-gradient(338.26deg, #3366ff4b 49.15%, #00207f42 108.42%), #ffffff4b;
+
+$gradient-original: radial-gradient(
+    197.07% 86.62% at 26.34% 83.93%,
+    #39c4ffc7 0%,
+    rgba(138, 97, 255, 0) 100%
+  ),
+  linear-gradient(338.26deg, #3366ffab 49.15%rgba(0, 32, 127, 0.658)7f 108.42%), #ffffffc5;
 
 $color-white: #fff;
 $color-black: #000;
@@ -30,7 +43,11 @@ $button-gradient: linear-gradient(
   $button-color-pink 66.11%,
   $button-color-orange 96.37%
 );
-$button-gradient-hovered: linear-gradient(0deg, rgba(3, 3, 3, 0.2), rgba(3, 3, 3, 0.2)),
+$button-gradient-hovered: linear-gradient(
+    0deg,
+    rgba(3, 3, 3, 0.2),
+    rgba(3, 3, 3, 0.2)
+  ),
   $button-gradient;
 
 // Цвета из макета, todo: перейти полностью на данный нейминг в будущем

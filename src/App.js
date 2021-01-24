@@ -1,4 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
+import { About } from "./components/About";
+import { Advanteges } from "./components/Advantages/Advantages";
+import { Categories } from "./components/Categories";
 import { Features } from "./components/Features";
 import { Header } from "./components/Header";
 
@@ -19,8 +22,11 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header width={width} />
       <main className="main">
+        <About />
+        <Categories width={width} />
+        {/* <Advanteges /> */}
         <Features width={width} />
       </main>
     </div>
