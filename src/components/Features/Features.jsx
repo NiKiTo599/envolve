@@ -9,16 +9,16 @@ import "./Features.scss";
 
 export const Features = ({ width }) => (
   <section className="features">
-    <div className="features__title-container">
+    <div className="header-title features__title-container">
       <Typography
         className="features__title-container_bold"
-        size={36}
+        size={42}
         color="primary"
         weight="medium"
         align="center">
         Features
       </Typography>
-      <Typography size={36} color="secondary" align="center">
+      <Typography size={42} color="secondary" align="center">
         our users love
       </Typography>
     </div>

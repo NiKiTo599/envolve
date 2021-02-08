@@ -17,14 +17,15 @@ export const Header = ({ width }) => (
             <Typography
               className="header__title"
               size={90}
-              weight="medium"
-              color="primary"
+              weight="bold"
+              color="white"
               align="center">
-              CHALLENGE NEVER ENDS
+              <span className="fade-in">CHALLENGE </span>
+              <span className="fade-in" style={{ animationDuration: "6s" }}>NEVER ENDS</span>
             </Typography>
-            {width > 930 && <div className="header__app" />}
+            {width > 930 && <div className="logo-google" />}
           </div>
-          <div className="header__column header__column_right">
+          <div className="fade-in header__column header__column_right">
             <Phone className="header__phone header__phone_left">
               <img className="photo-screen" src={Marafon1} alt="screen phone" />
             </Phone>
@@ -40,7 +41,7 @@ export const Header = ({ width }) => (
                 />
               </Phone>
             )}
-            {width < 930 && <div className="header__app" />}
+            {width < 930 && <div className="logo-google header__app" />}
           </div>
         </div>
       </div>

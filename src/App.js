@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import { About } from "./components/About";
-import { Advanteges } from "./components/Advantages/Advantages";
+import { Advantages } from "./components/Advantages/Advantages";
 import { Categories } from "./components/Categories";
 import { Features } from "./components/Features";
+import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header";
 
 import "./index.scss";
@@ -22,13 +23,18 @@ function App() {
 
   return (
     <div className="App">
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
       <Header width={width} />
       <main className="main">
         <About />
         <Categories width={width} />
-        {/* <Advanteges /> */}
+        <Advantages />
         <Features width={width} />
       </main>
+      <Footer />
     </div>
   );
 }

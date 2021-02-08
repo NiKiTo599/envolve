@@ -18,10 +18,10 @@ const AboutCard = ({ title, info }) => (
 
 export const About = () => (
   <div className="about">
-    <div className="about__logo" />
+    <div className="header-title about__logo" />
     <Typography
       className="features__title-container_bold"
-      size={36}
+      size={42}
       color="primary"
       weight="medium"
       align="center">

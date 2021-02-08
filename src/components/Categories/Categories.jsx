@@ -14,8 +14,8 @@ import "./Categories.scss";
 export const Categories = ({ width }) => (
   <div className="categories">
     <Typography
-      className="features__title-container_bold"
-      size={36}
+      className="header-title features__title-container_bold"
+      size={42}
       color="primary"
       weight="medium"
       align="center">

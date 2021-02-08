@@ -1,0 +1,11 @@
+.advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__swiper {
+      height: 500px;
+      overflow: hidden;
+  }
+}

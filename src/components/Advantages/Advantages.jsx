@@ -1,34 +1,49 @@
-import React from "react";
-import Swiper from "react-id-swiper";
+import React, { useEffect, useRef, useState } from "react";
+import ReactDOM from "react-dom";
 
-import Marafon1 from "../../images/marafon1.svg";
+import { Typography } from "../../ui/Typography/Typography";
 
-const params = {
-  pagination: {
-    el: ".swiper-pagination",
-    type: "bullets",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  spaceBetween: 30,
+import "./Advantages.scss";
+import { Slide } from "./Slide";
+import { Slider } from "./Slider";
+import { SwitchSlides } from "./SwitchSlides";
+
+export const Advantages = () => {
+  const [slide, setSlider] = useState(0);
+  const slideRef = useRef();
+
+  const swithSlide = (index) => {
+    const node = ReactDOM.findDOMNode(slideRef.current);
+    node.classList.remove("fade-in");
+    setSlider(index);
+  };
+
+  useEffect(() => {
+    const node = ReactDOM.findDOMNode(slideRef.current);
+    node.classList.add("fade-in");
+
+    const interval = setInterval(() => {
+      swithSlide(slide === 3 ? 0 : slide + 1);
+    }, 10000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [slide]);
+
+  return (
+    <div className="advantages">
+      <Typography
+        className="header-title features__title-container_bold"
+        size={42}
+        color="primary"
+        weight="medium"
+        align="center">
+        Functionality of our application
+      </Typography>
+      <Slider>
+        <Slide slideRef={slideRef} index={slide} />
+      </Slider>
+      <SwitchSlides slide={slide} setSlider={swithSlide} />
+    </div>
+  );
 };
-
-export const Advanteges = () => (
-  <Swiper {...params}>
-    <div>
-      <img src={Marafon1} />
-    </div>
-    <div>
-      <img src={Marafon1} />
-    </div>
-    <div>
-      <img src={Marafon1} />
-    </div>
-    <div>
-      <img src={Marafon1} />
-    </div>
-  </Swiper>
-);

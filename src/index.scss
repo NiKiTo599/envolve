@@ -1,17 +1,30 @@
-@import './reset.css';
-@import 'swiper/swiper.scss';
+@import "./reset.css";
+@import "./ui/animation.scss";
 
 .main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-title {
+  margin-top: 32px;
+}
+
+.logo-google {
+  width: 170px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("./images/appstore.svg");
+  margin-top: 30px;
 }
 
 .photo-screen {
-    width: 194px;
-    height: auto;
-    position: absolute;
-    top: 9px;
-    left: 55px;
-    border-radius: 28px;
+  width: 194px;
+  height: auto;
+  position: absolute;
+  top: 9px;
+  left: 55px;
+  border-radius: 28px;
 }

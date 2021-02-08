@@ -1,0 +1,21 @@
+@import "../../../ui/variables.scss";
+
+.switch {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 30px;
+
+  .switcher {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #00207f49;
+
+    &_active {
+      background: #00207f;
+    }
+  }
+}

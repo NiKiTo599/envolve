@@ -1,4 +1,5 @@
-@import "../../ui//typography.scss";
+@import "../../ui/typography.scss";
+@import "../../ui/variables.scss";
 
 .header {
   height: 800px;
@@ -18,7 +19,7 @@
     &_overlay {
       width: 100%;
       height: 100%;
-      background: rgba(18, 61, 202, 0.2);
+      background: $gradient;
     }
   }
 
@@ -123,18 +124,11 @@
     }
 
     @media screen and (max-width: 630px) {
-        @include typography_size-42;
-      }
+      @include typography_size-42;
+    }
   }
 
   &__app {
-    width: 170px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../../images/appstore.svg");
-    margin-top: 30px;
-
     @media screen and (max-width: 930px) {
       flex-direction: column;
       align-items: center;
