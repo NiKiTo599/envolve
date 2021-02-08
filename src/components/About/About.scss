@@ -35,8 +35,13 @@
   }
 
   &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    max-width: 290px;
+    max-width: 300px;
+    min-height: 225px;
     padding: 32px 48px 24px;
     border-radius: 20px;
     box-shadow: 0 10px 28px 0 hsla(210, 8%, 54%, 0.4);

@@ -10,7 +10,7 @@ const AboutCard = ({ title, info }) => (
     <Typography className="about__title" component="p" size={28} weight="medium">
       {title}
     </Typography>
-    <Typography component="p" size={20} color="secondadry">
+    <Typography component="p" size={20} color="secondadry" align="center">
       {info}
     </Typography>
   </div>
