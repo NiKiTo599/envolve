@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/envolve/static/css/main.cece6b15.chunk.css",
-    "main.js": "/envolve/static/js/main.c0767ec7.chunk.js",
-    "main.js.map": "/envolve/static/js/main.c0767ec7.chunk.js.map",
+    "main.css": "/envolve/static/css/main.e23a38bd.chunk.css",
+    "main.js": "/envolve/static/js/main.b8f8408f.chunk.js",
+    "main.js.map": "/envolve/static/js/main.b8f8408f.chunk.js.map",
     "runtime-main.js": "/envolve/static/js/runtime-main.f8b604a7.js",
     "runtime-main.js.map": "/envolve/static/js/runtime-main.f8b604a7.js.map",
     "static/js/2.d665d89d.chunk.js": "/envolve/static/js/2.d665d89d.chunk.js",
     "static/js/2.d665d89d.chunk.js.map": "/envolve/static/js/2.d665d89d.chunk.js.map",
     "index.html": "/envolve/index.html",
-    "static/css/main.cece6b15.chunk.css.map": "/envolve/static/css/main.cece6b15.chunk.css.map",
+    "static/css/main.e23a38bd.chunk.css.map": "/envolve/static/css/main.e23a38bd.chunk.css.map",
     "static/js/2.d665d89d.chunk.js.LICENSE.txt": "/envolve/static/js/2.d665d89d.chunk.js.LICENSE.txt",
     "static/media/MINDFULLNESS.b8d99a72.jfif": "/envolve/static/media/MINDFULLNESS.b8d99a72.jfif",
     "static/media/advantgage1.0d5be610.jpg": "/envolve/static/media/advantgage1.0d5be610.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.f8b604a7.js",
     "static/js/2.d665d89d.chunk.js",
-    "static/css/main.cece6b15.chunk.css",
-    "static/js/main.c0767ec7.chunk.js"
+    "static/css/main.e23a38bd.chunk.css",
+    "static/js/main.b8f8408f.chunk.js"
   ]
 }
