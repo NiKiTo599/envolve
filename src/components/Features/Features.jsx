@@ -8,7 +8,7 @@ import Screen from "../../images/features-phone.png";
 import "./Features.scss";
 
 export const Features = ({ width }) => (
-  <section className="features">
+  <section className="features" id="features">
     <div className="header-title features__title-container">
       <Typography
         className="features__title-container_bold"

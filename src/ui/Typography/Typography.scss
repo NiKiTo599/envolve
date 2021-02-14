@@ -16,6 +16,10 @@
   @include typography_color-white;
 }
 
+.ui-typography_color-gradient {
+  @include typography_color-gradient;
+}
+
 .ui-typography_color-error {
   @include typography_color-error;
 }

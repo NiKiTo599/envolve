@@ -1,5 +1,8 @@
 @import "./reset.css";
 @import "./ui/animation.scss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "bootstrap-css-only/css/bootstrap.min.css";
+@import "mdbreact/dist/css/mdb.css";
 
 .App {
   overflow: hidden;
@@ -11,7 +14,7 @@
   padding: 0 20px;
 }
 .header-title {
-  margin-top: 32px;
+  padding-top: 60px;
 }
 
 .logo-google {

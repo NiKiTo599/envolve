@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
+
 import { About } from "./components/About";
 import { Advantages } from "./components/Advantages/Advantages";
 import { Categories } from "./components/Categories";
 import { Features } from "./components/Features";
 import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header";
+import Header from "./components/Header/Header";
 
 import "./index.scss";
 

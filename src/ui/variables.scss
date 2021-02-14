@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;900&display=swap");
+@import "./fonts.scss";
 
-$font-family-base: "Noto Sans JP", Arial, sans-serif;
+$font-family-base: "Axiforma-Bold", Arial, sans-serif;
 $gradient: radial-gradient(
     197.07% 86.62% at 26.34% 83.93%,
     #39c4ff59 0%,
@@ -13,7 +13,8 @@ $gradient-original: radial-gradient(
     #39c4ffc7 0%,
     rgba(138, 97, 255, 0) 100%
   ),
-  linear-gradient(338.26deg, #3366ffab 49.15%, rgba(0, 32, 127, 0.658) 108.42%), #ffffffc5;
+  linear-gradient(338.26deg, #3366ffab 49.15%, rgba(0, 32, 127, 0.658) 108.42%),
+  #ffffffc5;
 
 $color-white: #fff;
 $color-black: #000;

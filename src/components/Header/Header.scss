@@ -8,19 +8,10 @@
     height: 200px;
   }
 
-  &__image {
+  &__background {
     width: 100%;
     height: 100%;
     background-color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../../images/fon.jpeg");
-
-    &_overlay {
-      width: 100%;
-      height: 100%;
-      background: $gradient;
-    }
   }
 
   &__main {
@@ -96,35 +87,31 @@
   }
 
   &__logo {
-    width: 480px;
-    height: 126px;
+    width: 180px;
+    height: 46px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("../../images/logo1.svg");
-    margin-bottom: 30px;
-
-    @media screen and (max-width: 1120px) {
-      width: 360px;
-      height: 94.5px;
-    }
-
-    @media screen and (max-width: 550px) {
-      width: 240px;
-      height: 63px;
-    }
+    background-image: url("../../images/logo.svg");
   }
 
   &__title {
+    font-style: italic;
     @media screen and (max-width: 1120px) {
       @include typography_size-70;
     }
 
-    @media screen and (max-width: 1120px) {
+    @media screen and (max-width: 1024px) {
       @include typography_size-48;
     }
 
-    @media screen and (max-width: 630px) {
+    @media screen and (max-width: 450px) {
       @include typography_size-42;
+    }
+  }
+
+  &__app-text {
+    @media screen and (max-width: 1024px) {
+      @include typography_size-22;
     }
   }
 
@@ -135,5 +122,23 @@
       position: absolute;
       top: 83%;
     }
+  }
+}
+
+.navbar-collapse {
+  background-color: transparent;
+
+  .nav-link {
+    color: black !important;
+  }
+}
+
+.blue {
+  .navbar-collapse {
+    background-color: #2195f38a;
+  }
+
+  .nav-link {
+    color: white !important;
   }
 }

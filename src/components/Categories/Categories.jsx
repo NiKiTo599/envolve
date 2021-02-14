@@ -12,7 +12,7 @@ import Social from "../../images/categories/social.jfif";
 import "./Categories.scss";
 
 export const Categories = ({ width }) => (
-  <div className="categories">
+  <div className="categories" id="activities">
     <Typography
       className="header-title features__title-container_bold"
       size={42}

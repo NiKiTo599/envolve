@@ -17,6 +17,10 @@
   color: $color-white;
 }
 
+@mixin typography_color-gradient {
+  color: rgba(0, 32, 127, 0.658);
+}
+
 @mixin typography_color-error {
   color: $ui_red_day;
 }

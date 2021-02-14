@@ -31,7 +31,7 @@ export const Advantages = () => {
   }, [slide]);
 
   return (
-    <div className="advantages">
+    <div className="advantages" id="functionality">
       <Typography
         className="header-title features__title-container_bold"
         size={42}
