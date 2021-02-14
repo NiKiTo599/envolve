@@ -30,7 +30,7 @@ function App() {
       />
       <Header width={width} />
       <main className="main">
-        <About />
+        <About width={width} />
         <Categories width={width} />
         <Advantages />
         <Features width={width} />
