@@ -129,7 +129,8 @@
   background-color: transparent;
 
   .nav-link {
-    color: black !important;
+    color: #0a3050 !important;
+    @include typography_weight-bold;
   }
 }
 
@@ -140,5 +141,6 @@
 
   .nav-link {
     color: white !important;
+    @include typography_weight-bold;
   }
 }

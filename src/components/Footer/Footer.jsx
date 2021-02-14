@@ -9,16 +9,16 @@ export const Footer = () => (
     <div className="footer__content">
       <div className="footer__row">
         <div className="footer__column footer__left">
-          <Typography size={70} color="white" component="p">
+          <Typography size={48} color="white" component="p">
             START
           </Typography>
-          <Typography size={70} color="white" component="p">
+          <Typography size={48} color="white" component="p">
             YOUR
           </Typography>
-          <Typography size={70} color="white" component="p">
+          <Typography size={48} color="white" component="p">
             ENVOLVE
           </Typography>
-          <Typography size={70} color="white" component="p">
+          <Typography size={48} color="white" component="p">
             NOW
           </Typography>
         </div>

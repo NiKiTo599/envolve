@@ -5,7 +5,6 @@ import {
   MDBCol,
   MDBCollapse,
   MDBContainer,
-  MDBFormInline,
   MDBIcon,
   MDBMask,
   MDBNavbar,
@@ -159,7 +158,10 @@ const Header = ({ width, ...props }) => {
               </MDBAnimation>
             </MDBCol>
 
-            <MDBCol md="6" xl="5" className="mt-xl-5 pb-md-10  d-flex flex-column justify-content-center align-items-center">
+            <MDBCol
+              md="6"
+              xl="5"
+              className="pb-md-10  d-flex flex-column justify-content-center align-items-center">
               <MDBAnimation type="fadeInRight" delay=".3s">
                 <div className="header__column header__column_right">
                   <Phone className="header__phone header__phone_left">
@@ -176,13 +178,15 @@ const Header = ({ width, ...props }) => {
                       alt="screen phone"
                     />
                   </Phone>
-                  <Phone className="header__phone header__phone_right">
-                    <img
-                      className="photo-screen"
-                      src={Marafon2}
-                      alt="screen phone"
-                    />
-                  </Phone>
+                  {width > 1000 && (
+                    <Phone className="header__phone header__phone_right">
+                      <img
+                        className="photo-screen"
+                        src={Marafon2}
+                        alt="screen phone"
+                      />
+                    </Phone>
+                  )}
                 </div>
               </MDBAnimation>
             </MDBCol>

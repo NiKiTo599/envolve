@@ -5,8 +5,8 @@ import { aboutCards } from "./constants";
 import "./About.scss";
 import { MDBCol, MDBContainer, MDBPopper, MDBRow } from "mdbreact";
 
-const AboutCard = ({ title, info }) => (
-  <MDBPopper material domElement tag="span" placement="bottom">
+export const AboutCard = ({ title, info }) => (
+  <MDBPopper material domElement tag="span" placement="right">
     <span className="about__tooltip-text">{title}</span>
     <span>{info}</span>
   </MDBPopper>

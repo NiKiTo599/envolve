@@ -32,7 +32,7 @@ function App() {
       <main className="main">
         <About width={width} />
         <Categories width={width} />
-        <Advantages />
+        <Advantages width={width} />
         <Features width={width} />
       </main>
       <Footer />
